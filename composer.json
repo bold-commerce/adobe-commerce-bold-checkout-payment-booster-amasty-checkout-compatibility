@@ -1,0 +1,22 @@
+{
+    "name": "bold-commerce/module-booster-amasty-checkout-compatibility",
+    "description": "Compatibility module for Amasty Checkout",
+    "type": "magento2-module",
+    "license": [
+        "MIT"
+    ],
+    "version": "1.0.0",
+    "require": {
+        "php": "^7.2 || ^8.0",
+        "magento/framework": ">=102.0.1 <103.0.8",
+        "bold-commerce/module-checkout-payment-booster": "^2.3.1"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Bold\\BoosterOneStepCheckoutCompatibility\\": ""
+        }
+    }
+}
