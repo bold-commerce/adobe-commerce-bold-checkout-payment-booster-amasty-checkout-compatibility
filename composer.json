@@ -9,6 +9,7 @@
     "require": {
         "php": "^7.2 || ^8.0",
         "magento/framework": ">=102.0.1 <103.0.8",
+        "amasty/module-single-step-checkout": "^4.4",
         "bold-commerce/module-checkout-payment-booster": "^2.3"
     },
     "autoload": {
